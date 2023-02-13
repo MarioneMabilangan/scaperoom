@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Empleats" table="employees" >
+        <id column="emp_no" name="numeroEmpleat" />
+        <property column="birth_date" name="dataNaixement" />
+        <property column="first_name" name="nom" />
+        <property column="last_name" name="cognoms" />
+        <property column="gender" name="genere" />
+        <property column="hire_date" name="dataAlta" />
+    </class>
+</hibernate-mapping>
